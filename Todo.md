@@ -91,6 +91,10 @@ Torah.cli/
   - [ ] Display list of bookmarks in a side panel or separate view.
   - [ ] Navigate to bookmarked text when selected from the list.
 
+### file links
+
+- [ ] support linking between files for quick acces and wherever a sefer quotes another one
+
 ### Offline Access & Text Management
 
 - [ ] **Manage text storage and caching**:
@@ -142,11 +146,3 @@ Torah.cli/
   - [ ] Integrate Vim-like text manipulation commands, e.g., `y` to yank (copy) and `p` to paste.
   - [ ] Allow users to customize and extend Vim key bindings, if desired.
   - [ ] Provide a quick reference guide within the command palette for all Vim commands available in "Evil Mode."
-
-### Miscellaneous Tasks
-
-- [ ] Write unit tests for each feature.
-- [ ] Test the application on different platforms.
-- [ ] Set up a feedback system to gather user insights.
-- [ ] Optimize code for performance and reduce memory usage where possible.
-- [ ] Document all functions and classes comprehensively.
