@@ -1,9 +1,9 @@
-# Torah.cli TODO List
+# openTorah TODO List
 
 ## Directory Structure
 
 ```
-Torah.cli/
+openTorah/
 │
 ├── src/
 │ ├── main.py

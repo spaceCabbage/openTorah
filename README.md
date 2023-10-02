@@ -1,6 +1,6 @@
-# Torah.cli
+# openTorah
 
-Torah.cli is an innovative Text User Interface (TUI) book reader designed to provide an enriched reading experience for Hebrew texts, including esteemed works such as the Hebrew Bible, Talmud, and more. It transforms your terminal into a powerful and intuitive reading platform, extending a plethora of features to enhance your interaction with the revered texts.
+openTorah is an innovative Text User Interface (TUI) book reader designed to provide an enriched reading experience for Hebrew texts, including esteemed works such as the Hebrew Bible, Talmud, and more. It transforms your terminal into a powerful and intuitive reading platform, extending a plethora of features to enhance your interaction with the revered texts.
 
 ## Features
 
@@ -41,13 +41,13 @@ Torah.cli is an innovative Text User Interface (TUI) book reader designed to pro
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/Torah.cli.git
+   git clone https://github.com/YourUsername/openTorah.git
    ```
 
 2. Navigate into the directory:
 
    ```bash
-   cd Torah.cli
+   cd openTorah
    ```
 
 3. Install the required Python libraries:
@@ -67,4 +67,4 @@ Contributions are warmly welcomed! If you'd like to contribute, please fork the 
 
 ## License
 
-[GNU General Public License v3.0](https://github.com/spaceCabbage/torah.cli/blob/main/LICENSE)
+[GNU General Public License v3.0](https://github.com/spaceCabbage/openTorah/blob/main/LICENSE)
