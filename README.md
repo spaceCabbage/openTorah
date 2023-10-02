@@ -68,3 +68,15 @@ Contributions are warmly welcomed! If you'd like to contribute, please fork the 
 ## License
 
 [GNU General Public License v3.0](https://github.com/spaceCabbage/openTorah/blob/main/LICENSE)
+
+## addtional features
+
+- shareable canvas
+- maareh umekomos with link
+- Shtender OS
+- bookmarks
+- offlinedownload
+- link quotes
+- ai based search
+- fuzzy searching
+- cli, mobile app, webapp
