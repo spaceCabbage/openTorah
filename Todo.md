@@ -55,7 +55,6 @@ HebrewTUIReader/
 | `Ctrl-N`        | Next Page                | **N**ext                    |
 | `Ctrl-Shift-N`  | Previous Page            | Previous (opposite of **N**ext) |
 
-### TUI Interface, Text Search, Command Palette, Translation, Bookmarking, Offline Access & Text Management, Right-to-left Support, Miscellaneous Tasks
 
 ### TUI Interface
 
@@ -140,19 +139,33 @@ HebrewTUIReader/
         - `h` for left, `j` for down, `k` for up, `l` for right.
         - `w` to jump forward by word, `b` to jump backward by word.
     - [ ] `gg` to go to the beginning of the text, `G` to go to the end.
-    - [ ] `:` for command execution, similar to Vim's command mode.
-    - [ ] Integrate Vim-like text manipulation commands, e.g., `y` to yank (copy) and `p` to paste.
+    - [ ] Integrate Vim-like visual mode where a user can select text to be translated or copied.
     - [ ] Allow users to customize and extend Vim key bindings, if desired.
     - [ ] Provide a quick reference guide within the command palette for all Vim commands available in "Evil Mode."
 
+## Initialization Process
 
+- [ ] Design and implement the `install.py` script for automated setup.
+- [ ] Check & install necessary Python version and libraries: `rich`, `textual`, `sqlite3`, `requests`.
+- [ ] Verify and install a suitable Hebrew-supporting font for optimal display.
+- [ ] Create and initialize SQLite database with tables for bookmarks, highlights, and other metadata.
+- [ ] Implement a step-by-step interactive tutorial for first-time users, with an option to skip and access later.
+- [ ] Ensure proper rendering and support for Hebrew texts, providing troubleshooting steps if issues are detected.
+- [ ] Allow downloading and caching of core Hebrew texts for offline use.
+- [ ] Inform users of successful setup and provide quick reference or link to project README.
 
-### Miscellaneous Tasks
+## Start Page / Dashboard
 
-- [ ] Write unit tests for each feature.
-- [ ] Test the application on different platforms.
-- [ ] Set up a feedback system to gather user insights.
-- [ ] Optimize code for performance and reduce memory usage where possible.
-- [ ] Document all functions and classes comprehensively.
-
+- [ ] Design a welcoming and functional start page/dashboard.
+- [ ] List of key sections for quick access:
+  - [ ] Torah
+  - [ ] Talmud
+  - [ ] Psalms
+  - [ ] Siddur
+  - [ ] Rishonim
+- [ ] Showcase recent locations for quick reading resumption.
+- [ ] Display latest bookmarks, allowing users to directly jump to them.
+- [ ] Quick access to the command palette.
+- [ ] Integrate a search bar at the top for direct text searches or command executions.
+- [ ] Highlight any project updates, news, or additional resources that users might find useful.
 
