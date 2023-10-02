@@ -1,6 +1,6 @@
-# HebrewTUIReader
+# Torah.cli
 
-HebrewTUIReader is an innovative Text User Interface (TUI) book reader designed to provide an enriched reading experience for Hebrew texts, including esteemed works such as the Hebrew Bible, Talmud, and more. It transforms your terminal into a powerful and intuitive reading platform, extending a plethora of features to enhance your interaction with the revered texts.
+Torah.cli is an innovative Text User Interface (TUI) book reader designed to provide an enriched reading experience for Hebrew texts, including esteemed works such as the Hebrew Bible, Talmud, and more. It transforms your terminal into a powerful and intuitive reading platform, extending a plethora of features to enhance your interaction with the revered texts.
 
 ## Features
 
@@ -17,19 +17,19 @@ HebrewTUIReader is an innovative Text User Interface (TUI) book reader designed 
 
 ### Keymaps and Commands
 
-| Key Combination | Command                  | Mnemonic                   |
-|-----------------|--------------------------|----------------------------|
-| `Ctrl-P`        | Text Search              | **P**roject/Text search    |
-| `Ctrl-Shift-P`  | Command Palette          | Palette with **P**ower     |
-| `Ctrl-B`        | Bookmark Current Page    | **B**ookmark               |
-| `Ctrl-S`        | Save/Download Text       | **S**ave                   |
-| `Ctrl-T`        | Translate Selected Text  | **T**ranslate              |
-| `Ctrl-O`        | Open Sidebar/Bookmarks   | **O**pen side panel        |
-| `Ctrl-A`        | Add Highlight            | **A**dd highlight          |
-| `Ctrl-R`        | Remove Highlight         | **R**emove highlight       |
-| `Ctrl-N`        | Next Page                | **N**ext                   |
-| `Ctrl-Shift-N`  | Previous Page            | Previous (opposite of **N**ext) |
-| `Ctrl-E`        | Toggle Evil Mode         | Toggle Vim-like controls   |
+| Key Combination | Command                 | Mnemonic                        |
+| --------------- | ----------------------- | ------------------------------- |
+| `Ctrl-P`        | Text Search             | **P**roject/Text search         |
+| `Ctrl-Shift-P`  | Command Palette         | Palette with **P**ower          |
+| `Ctrl-B`        | Bookmark Current Page   | **B**ookmark                    |
+| `Ctrl-S`        | Save/Download Text      | **S**ave                        |
+| `Ctrl-T`        | Translate Selected Text | **T**ranslate                   |
+| `Ctrl-O`        | Open Sidebar/Bookmarks  | **O**pen side panel             |
+| `Ctrl-A`        | Add Highlight           | **A**dd highlight               |
+| `Ctrl-R`        | Remove Highlight        | **R**emove highlight            |
+| `Ctrl-N`        | Next Page               | **N**ext                        |
+| `Ctrl-Shift-N`  | Previous Page           | Previous (opposite of **N**ext) |
+| `Ctrl-E`        | Toggle Evil Mode        | Toggle Vim-like controls        |
 
 ## Requirements
 
@@ -39,24 +39,27 @@ HebrewTUIReader is an innovative Text User Interface (TUI) book reader designed 
 ## Installation for Users
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/YourUsername/HebrewTUIReader.git
-    ```
+
+   ```bash
+   git clone https://github.com/YourUsername/Torah.cli.git
+   ```
 
 2. Navigate into the directory:
-    ```bash
-    cd HebrewTUIReader
-    ```
+
+   ```bash
+   cd Torah.cli
+   ```
 
 3. Install the required Python libraries:
-    ```bash
-    pip install rich textual sqlite3 requests
-    ```
+
+   ```bash
+   pip install rich textual sqlite3 requests
+   ```
 
 4. Launch the application:
-    ```bash
-    python src/main.py
-    ```
+   ```bash
+   python src/main.py
+   ```
 
 ## Contribution
 
@@ -65,4 +68,3 @@ Contributions are warmly welcomed! If you'd like to contribute, please fork the 
 ## License
 
 [GNU General Public License v3.0](https://github.com/spaceCabbage/torah.cli/blob/main/LICENSE)
-
