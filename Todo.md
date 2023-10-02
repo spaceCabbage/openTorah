@@ -32,7 +32,7 @@ HebrewTUIReader/
 │ └── rtl_support.py
 │
 ├── data/
-│ ├── texts/
+│ ├── sefarim/
 │ └── db/
 └── README.md
 ```
