@@ -1,0 +1,41 @@
+Screen {
+  align: center middle;
+  background: rgb(255, 255, 255) 0%;
+}
+DirectoryTree {
+  width: 30;
+  height: 100%;
+  dock: left;
+}
+
+.-hidden {
+  display: none;
+}
+
+.h1 {
+  text-align: center;
+  margin: 1;
+  text-style: bold;
+}
+
+.h3 {
+  text-align: center;
+  margin: 2;
+  text-style: italic;
+}
+
+Button {
+  width: 100%;
+  margin: 1 2;
+}
+
+Grid {
+  grid-size: 2;
+}
+
+Welcome {
+  layout: vertical;
+  margin: 2 15;
+  border: round white;
+  /* margin-left: 30; */
+}
